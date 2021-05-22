@@ -7,9 +7,9 @@ def square_array(array)
   new_array 
 end
 =end
-#require 'pry'
+require 'pry'
 def square_array(array)
-#binding.pry
+  binding.pry
   array.collect {|i| i << i**2}
   
   
