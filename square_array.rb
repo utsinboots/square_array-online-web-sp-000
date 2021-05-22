@@ -9,7 +9,8 @@ end
 =end
 #require 'pry'
 def square_array(array)
-  puts array.collect {|i| i**2}
+  
+  array.collect {|i| i << i**2}
   #binding.pry
   
 end
